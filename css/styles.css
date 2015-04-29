@@ -1,0 +1,291 @@
+html{
+	
+}
+#wrap {
+	background-image: url("noise.png");
+	width: 800px;
+	height: 900px;
+	margin: auto;
+	
+}
+
+#name_top {
+	
+	
+	color: white;
+	background-color: black;
+	height: 55px;
+	margin-top: 5px;
+
+
+}
+
+#name{
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 22px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+ 
+#contact{
+	font-size: 14px;
+	color: white;
+	float: right;
+	font-weight: normal;
+	display: inline;
+	margin: -5px;
+	text-align: left;
+}
+
+/* div blocks */
+
+#intro {
+	width: 560px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 10px 0 10px;
+	outline: 3px solid black;
+
+}
+
+#tech_specs{
+	width: 210px;
+	height: 823px;
+	float: right;
+	display: inline-block;
+	margin: 10px 10px 0  0;
+	outline: 2px solid black;
+	
+}
+
+#education{
+	width: 275px;
+	height: 125px;
+	display: inline-block;
+	margin: 10px 10px 0 10px;
+	vertical-align: bottom;
+	outline: 3px solid black;
+}
+
+
+#hobby{
+	width: 275px;
+	height: 125px;
+	display: inline-block;
+	margin: 10px 10px 0 0px;
+	float: right;
+	vertical-align: bottom;
+	outline:2px solid black;
+	
+}
+
+#work{
+	width: 560px;
+	height: 478px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	vertical-align: bottom;
+	outline: 2px solid black;
+
+}
+
+#intro h1 {
+	margin: 0;
+	text-align: center;
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+	
+
+}
+
+
+#intro p {
+	margin: 20px 15px 0;
+	display: inline-block;
+
+}
+
+#intro p:nth-child(3) {
+	margin: 10px 15px 0;
+	color:red;
+	width: 70%;
+	display: inline-block;
+
+}
+
+
+
+/*EDUCATION SECTION*/
+
+#education h2 {
+	text-align: center;
+	color: white;
+	background-color: red;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+}
+
+#education p {
+	margin: 15px 0 0 15px
+}  
+
+/*Interests*/
+#hobby h2 {
+	
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+}
+
+#hobby ul {
+	margin: 15px 0 0 15px;
+}  
+
+/*employment*/
+#work h2 {
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bold;
+	letter-spacing: normal;
+	border-bottom: 2px solid black;
+}
+#work h5 {
+	margin: 0 0 0 50px;
+}  
+#work li {
+	margin: 0 0 0 50px;
+	font-size: 14px;
+}  
+#work h6 {
+	margin: 0;
+	margin-left: 60px;
+}
+
+#work ul{
+	
+	margin: 15px 25px 5px;
+}
+
+/*Tech skills Section*/
+#tech_q{
+	width: 200px;
+	height: 170px;
+	margin: 10px 5px;
+	outline: 2px solid black;
+
+}
+
+#tech_q h5{
+	margin: 0;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: 900;
+	border-bottom: 2px solid black;
+}
+
+#tech_q p {
+	margin: 30px 10px;
+}
+
+
+
+
+#software{
+	width: 200px;
+	height: 623px;
+	margin: 10px 5px;
+	outline: 2px solid black;
+}
+#software h2{
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+	background-color: red;
+	font-weight: normal;
+	letter-spacing: 2px;
+	border-bottom: 2px solid black;
+}
+
+#software ul {
+	margin-top: 25px;
+	margin-left: -6px;
+	display: inline-block;
+
+
+
+}
+#software li {
+	margin-top: 6px;
+
+
+}
+
+#software p {
+	
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+/* */
+
+
+.diploma{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	float: right;
+	margin-right: 25px; 
+	margin-top: -25px;
+
+}
+
+.ufology{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	float: right;
+	margin-right: 20px; 
+	margin-top: -65px;
+
+}
+.internet {
+	margin-top: 25px;
+	margin-left: 110px;
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+}
+
+.tools{
+	margin-top: 55px;
+	margin-left: 130px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
+.net{
+	width: 60px;
+	height: 60px;
+	margin-left: 40px;
+	display: inline-block;
+
+}
+
+*{
+	margin: 0;
+}
